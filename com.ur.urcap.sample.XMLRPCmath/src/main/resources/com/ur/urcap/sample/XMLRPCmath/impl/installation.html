@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Math XMLRPC</title>
+		<style>
+			label, input {
+				display: inline-block;
+				width: 200px;
+				height: 28px;
+			}
+			
+			div.spacer {
+				padding-top: 10px;
+	 		}
+        </style>
+	</head>
+	<body>
+		<h1>XMLRPC Math</h1>
+		<div class="spacer">&nbsp;</div>		
+		<form>
+			<input id="cbDaemon" type="checkbox" /> Run XMLRPC Server <br>
+			<label id="lblDaemonStatus" style="width:400px">Status of daemon</label>
+			<div class="spacer">&nbsp;</div>	
+			<p> Use below format to utilize the XMLRPC Math package: </p>
+			<p><i> var = math.function(arguments) </i></p>
+			<p> Example: </p>
+			<p><i> letter_H = math.strIndex("Hello",0) </i></p>
+			<div class="spacer">&nbsp;</div>	
+			<p> Following functions are implemented: </p>
+			<p><i> add(a,b) </i> - Adds two numeric values</p>
+			<p><i> sub(a,b) </i> - Subtracts two numeric values</p>
+			<p><i> strIndex(str,n) </i> - Returns the n'th character of string str </p>
+			<p><i> strCon(str1,str2) </i> - Concentrates str1 and str2 </p>
+		</form>
+	</body>
+</html>
